@@ -1,5 +1,7 @@
 FROM eclipse-temurin:jdk-17
 
+LABEL maintainer="sanjeev"
+
 COPY target/mydockertest.jar /usr/app/
 
 WORKDIR /usr/app  
