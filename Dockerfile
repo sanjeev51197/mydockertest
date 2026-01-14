@@ -1,4 +1,4 @@
-FROM eclipse-temurin:jdk-17
+FROM eclipse-temurin:17-jdk
 
 COPY target/mydockertest.jar /usr/app/
 
